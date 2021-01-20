@@ -5,8 +5,8 @@
     font-style: normal;
     font-weight: 400;
     src: local('Annabelle'), local('Annabelle-Regular'),
-        url(http://allfont.ru/cache/fonts/annabelle_e9578cfcc5fe73b0afe27ee9e0c0757c.woff) format('woff'),
-        url(http://allfont.ru/cache/fonts/annabelle_e9578cfcc5fe73b0afe27ee9e0c0757c.ttf) format('truetype');
+        url(annabelle_e9578cfcc5fe73b0afe27ee9e0c0757c.woff) format('woff'),
+        url(annabelle_e9578cfcc5fe73b0afe27ee9e0c0757c.ttf) format('truetype');
 }
 :root {
   --bs-font-sans-serif: 'Raleway', system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
