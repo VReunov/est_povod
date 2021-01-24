@@ -314,34 +314,35 @@ main {
 }
 
 #main::after {
-  content: '';
-  width: 500px;
-  height: 500px;
-  display: block;
-  background-image: url(../img/bg/1.png);
-  background-size: contain;
-  position: absolute;
-  left: -173px;
-  top: 141px;
+    content: '';
+    width: 300px;
+    height: 446px;
+    display: block;
+    background-image: url(../img/bg/1.png);
+    background-size: cover;
+    position: absolute;
+    left: -14px;
+    top: 77px;
+    transform: scale(-1, 1);
 }
 #main::before {
-  content: '';
-  width: 500px;
-  height: 500px;
-  display: block;
-  background-image: url(../img/bg/1.png);
-  background-size: contain;
-  position: absolute;
-  right: -173px;
-  top: 141px;
-  transform: scale(-1, 1);
+    content: '';
+    width: 300px;
+    height: 446px;
+    display: block;
+    background-image: url(../img/bg/1.png);
+    background-size: cover;
+    position: absolute;
+    right: -14px;
+    top: 77px;
+
 }
 
 
 #gallery::after {
   content: '';
-  width: 500px;
-  height: 500px;
+  width: 482px;
+  height: 403px;
   display: block;
   background-image: url(../img/bg/2.png);
   background-size: contain;
@@ -352,8 +353,8 @@ main {
 
 #services::before {
   content: '';
-  width: 500px;
-  height: 500px;
+  width: 458px;
+  height: 468px;
   display: block;
   background-image: url(../img/bg/3.png);
   background-size: contain;
@@ -364,15 +365,15 @@ main {
 }
 #contacts::after {
   content: '';
-  width: 500px;
-  height: 500px;
+  width: 481px;
+  height: 336px;
   display: block;
   background-image: url(../img/bg/4.png);
   background-size: contain;
   position: absolute;
   right: 40px;
-  top: -30px;
-  transform: scale(-1, 1);
+  top: 6px;
+
 }
 
 .main_ {
@@ -386,4 +387,8 @@ main {
   opacity: 1;
   transform: translate(0px,0%);
 
+}
+.title-yr {
+  font-weight: 900;
+color: rgba(0,0,0,0.5);
 }
